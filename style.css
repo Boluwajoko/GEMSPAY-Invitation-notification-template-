@@ -1,0 +1,228 @@
+*{
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+a {
+    text-decoration: none;
+}
+
+*[x-apple-data-detectors],
+.unstyle-auto-detected-links *,
+.aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+.a6S {
+    display: none !important;
+    opacity: 0.01 !important;
+}
+
+.im {
+    color: inherit !important;
+}
+
+
+img.g-img + div {
+    display: none !important;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+    u ~ div .email-container {
+        min-width: 320px !important;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+    u ~ div .email-container {
+        min-width: 375px !important;
+    }
+}
+
+@media only screen and (min-device-width: 414px) {
+    u ~ div .email-container {
+        min-width: 414px !important;
+    }
+}
+
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    color: #000000;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: rgba(117, 115, 232, 0.15);
+    height: 150px;
+    margin: auto 0;
+    align-content: center;
+}
+
+#logo {
+    max-width: 30%;
+    margin: 3% 0 0 5%;
+    float: left;            
+}
+
+#backgroundpic {
+    float: right;
+    margin-right: 5%;
+    max-width: 60%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#message-body {
+    margin: 0 0 8px 0;
+    padding: 10px;
+}
+
+.msg {
+    margin-top: 20px;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+#button-holder {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #7573E8;
+    color: #F5F4F9;
+    text-decoration: none;
+    padding: 6px 30px;
+    border-radius: 10px;
+    font-weight: 800;
+    float: left;
+    font-size: 0.9rem; 
+}
+
+.btn:hover {
+    background: rgba(117, 115, 232, 0.6);
+}
+
+#developer-links-msg {
+    margin-top: 70px;
+}
+        
+.line {
+    clear: both;
+    height: 3px;
+    background-color: #000000;
+    margin: 4% auto;
+    width: 100%;
+}
+
+a {
+    color: #FFC700;
+    text-decoration: none;
+}
+
+#remark {
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+#developer-links-header {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+ul {
+    padding-left: 17px;
+}
+
+li {
+    font-size: 0.9rem;
+}
+
+#for-more-info {
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.contact {
+    text-align: center;
+    width: 80%;
+    margin: 2% auto;
+    font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 540px) {
+
+    #login-details p span {
+        display: block;
+    }
+
+        #login-details p span.title {
+            font-weight: bold;
+            width: 100%;
+            margin: 5px 0;
+        }
+
+        #login-details p span.info {
+            width: 100%;
+        }
+
+    #wrapper {
+        width: 90%;
+    }
+
+    header {
+        height: 100px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .contact {
+        text-align: center;
+        width: 80%;
+        margin: 2% auto;
+        font-size: 0.6rem;
+    }
+
+}
