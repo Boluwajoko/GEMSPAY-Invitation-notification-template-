@@ -1,1 +1,0 @@
-# GEMSPAY-Invitation-notification-template-
